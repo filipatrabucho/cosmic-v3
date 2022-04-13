@@ -1,5 +1,6 @@
 .graphics{
     background-color: #0C112A;
+    overflow-x: hidden;
 
 }
 .graphics__title{
