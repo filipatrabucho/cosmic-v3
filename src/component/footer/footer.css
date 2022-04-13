@@ -1,7 +1,46 @@
 .footer{
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .footer__container{
-    display: flex;
+    text-align: center;
+}
+.navbar__icon{
+    height: 2rem;
+    width: 2rem;
+}
+.footer__brands{
+    align-items: center;
     flex-direction: row;
+    display: flex;
+    align-content: center;
+}
+.footer__list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 41.8125rem;
+    height: 2.8125rem;
+}
+.footer__item{
+    
+}
+.footer__link{
+    text-decoration: none;
+    color: #E0EAF8;
+    text-transform: uppercase;
+}
+.footer__link-others{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #787CA9;
+}
+.footer__linktree{
+    padding-left: 1.25rem;
+    
+}
+.footer__cosmicexodus{
+    padding-bottom: 1.25rem;
 }
