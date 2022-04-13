@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/COSMIC-EXODUS-FINAL 2.png';
+import logo from '../../assets/LogoCosmic-Exodus 1.svg';
 import everywhere from '../../assets/Logo-_Everywhere_ 1.png';
 import {AiOutlineClose} from 'react-icons/ai';
 import cosmic from '../../assets/Cosmis Exodus® _ 2022.png';

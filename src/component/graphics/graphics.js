@@ -1,10 +1,8 @@
 import React from "react";
 
+import "./graphics.css";
 
-import "./graphicspage.css";
-
-
-function GraphicsPage({ title, text, img, button }) {
+function Graphics({ title, text, img, button }) {
   return (
     <div className="graphics">
       <div className="graphics__container">
@@ -22,4 +20,4 @@ function GraphicsPage({ title, text, img, button }) {
   );
 }
 
-export default GraphicsPage;
+export default Graphics;
