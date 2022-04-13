@@ -2,7 +2,7 @@
     background-color: #0C112A;
     max-width: 1200px;
     margin: auto;
-    
+
 }
 .navbar__container{
     display: flex;
@@ -12,7 +12,11 @@
 
 .navbar__menu{
     padding-top: 35px;
+}
 
+.navbar__logo {
+    height: 6em;
+    width: 6em;
 }
 
 .navbar__icon{
