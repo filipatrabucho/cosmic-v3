@@ -1,10 +1,13 @@
 .navbar{
     background-color: #0C112A;
+    max-width: 1200px;
+    margin: auto;
+
 }
 .navbar__container{
-    justify-content: space-around;
     display: flex;
     align-content: center;
+    justify-content: space-between;
 }
 
 .navbar__menu{
