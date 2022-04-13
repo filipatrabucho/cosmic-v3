@@ -1,9 +1,23 @@
-.banner__container{
-    object-fit: cover;
-    width: 50px;
-    height: 100px;
-}
-.banner__image{
-    
+/* Centrar image em responsive*/
 
+.banner__container{
+   
+} 
+.banner__image{
+
+}
+.banner__image-mobile{
+    visibility: hidden;
+    display: none;
+}
+
+@media screen and (max-width: 430px) {
+    .banner__image{
+        visibility: hidden;
+        display: none;
+    }
+    .banner__image-mobile{
+        visibility: visible;
+        display: block;
+    }
 }

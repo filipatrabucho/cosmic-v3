@@ -8,6 +8,7 @@ import Routemap from "./component/routemap/routemap";
 import logo from "./assets/COSMIC-EXODUS-FINAL 2.png";
 import content from "./assets/256 256 1.svg";
 import profilePic from "./assets/THANK WITHOU BG 1.svg";
+import Footer from './component/footer/footer';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         <Routes>
           <Route path="/cosmicgraphicspack" element={<GraphicsPage />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );
