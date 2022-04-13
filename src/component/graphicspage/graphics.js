@@ -2,7 +2,7 @@
 import React from 'react'
 import Banner from '../banner/banner';
 import Routemap from '../routemap/routemap';
-import logo from '../COSMIC-EXODUS-FINAL 2.png';
+
 
 import './graphicspage.css';
 
@@ -16,7 +16,6 @@ function GraphicsPage() {
         <div className="graphics__container">
             <hr class="graphics__line" />
 
-            <img src={logo} alt="logo" className="graphics__logo" />
 
         </div>
     </div>
