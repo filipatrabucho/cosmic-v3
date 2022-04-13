@@ -5,7 +5,7 @@ import GraphicsPage from "./component/graphicspage/graphics";
 import NavBar from "./component/navbar/navbar";
 import Banner from "./component/banner/banner";
 import Routemap from "./component/routemap/routemap";
-import logo from "./assets/COSMIC-EXODUS-FINAL 2.png";
+import logo from "./assets/LogoCosmic-Exodus 1.svg";
 import content from "./assets/256 256 1.svg";
 import profilePic from "./assets/THANK WITHOU BG 1.svg";
 
@@ -32,7 +32,14 @@ function App() {
             "This pack includes banners for social media(facebook, instagram, twitter, etc), backgrounds and other useful asserts."
           }
         />
-        <GraphicsPage title={"Profile Pictures"} img={profilePic} button={"view"} text={"Are you excited about Cosmic Exodus?Let’s share the hype with our friends by using a Cosmic picture in our profiles online. When sharing our linktree in your bio and using one of these pictures you are making sure our brand is noticed by other members in the space."}/>
+        <GraphicsPage
+          title={"Profile Pictures"}
+          img={profilePic}
+          button={"view"}
+          text={
+            "Are you excited about Cosmic Exodus?Let’s share the hype with our friends by using a Cosmic picture in our profiles online. When sharing our linktree in your bio and using one of these pictures you are making sure our brand is noticed by other members in the space."
+          }
+        />
         <Routes>
           <Route path="/cosmicgraphicspack" element={<GraphicsPage />} />
         </Routes>
