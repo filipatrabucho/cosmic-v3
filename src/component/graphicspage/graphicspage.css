@@ -1,0 +1,16 @@
+.graphics{
+    background-color: #0C112A;
+
+}
+.graphics__title{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+.graphics__container{
+    max-width: 1200px;
+    margin: auto;
+}
+.graphics__line{
+    border: 1px solid #16215B;
+}

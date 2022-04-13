@@ -1,0 +1,19 @@
+.navbar{
+    background-color: #0C112A;
+    
+}
+.navbar__container{
+    justify-content: space-around;
+    display: flex;
+    align-content: center;
+    
+}
+
+.navbar__menu{
+    padding-top: 35px;
+
+}
+
+.navbar__icon{
+   color: #fff;
+}
