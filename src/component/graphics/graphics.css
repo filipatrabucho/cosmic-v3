@@ -10,7 +10,6 @@
   margin-top: 0;
   margin-bottom: 0;
   text-align: center;
-  color: #fff;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -26,7 +25,6 @@
   border: 1px solid #16215b;
   margin: 0;
 }
-
 
 .graphics__flex {
   display: flex;
@@ -49,21 +47,13 @@
   align-items: flex-start;
   flex-direction: column;
 }
+
 .graphics__subtitle {
   margin-bottom: 0em;
 }
 
 .graphics__description {
   margin-right: 8em;
-}
-
-.graphics__btn {
-  padding: 0.5em 1.5em;
-  color: white;
-  background-color: #f26929;
-  border-style: none;
-  text-transform: capitalize;
-  border-radius: 3px;
 }
 
 @media screen and (min-width: 250px) and (max-width: 950px) {

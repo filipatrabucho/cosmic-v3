@@ -6,6 +6,7 @@ import Banner from "./component/banner/banner";
 import Routemap from "./component/routemap/routemap";
 import Footer from "./component/footer/footer";
 import GraphicsPage from "./pages/GraphicsPage";
+import ContentPage from "./pages/ContentPage";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Routemap />
         <Routes>
           <Route path="/cosmicgraphicspack" element={<GraphicsPage />} />
+          <Route path="/content" element={<ContentPage/>} />
         </Routes>
         <Footer />
       </Router>
