@@ -1,0 +1,8 @@
+.error__banner{
+background-image: url('../../assets/error_banner.png');
+background-position: center;
+height: 40rem;
+width: 100%;
+background-repeat: no-repeat;
+
+}
