@@ -12,10 +12,6 @@ function GraphicsPage() {
       name: "Cosmic Graphics Pack",
       href: "/cosmicgraphicspack",
     },
-    {
-      name: "Privacy",
-      href: "/privacypage",
-    },
   ];
   return (
     <>
