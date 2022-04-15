@@ -1,8 +1,17 @@
-.error__banner{
-background-image: url('../../assets/error_banner.png');
-background-position: center;
-height: 40rem;
-width: 100%;
-background-repeat: no-repeat;
+.error__banner {
+  background-image: url("../../assets/error_banner.png");
+  background-position: center;
+  height: 40rem;
+  width: 100%;
+  background-repeat: no-repeat;
+}
 
+@media screen and (max-width: 400px) {
+  .error__banner {
+    background-image: url("../../assets/error_mobilebanner.png");
+    background-position: center;
+    height: 40rem;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
 }
