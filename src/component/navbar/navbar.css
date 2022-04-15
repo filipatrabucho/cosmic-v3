@@ -1,24 +1,29 @@
-.navbar{
-    background-color: #0C112A;
-    max-width: 1200px;
-    margin: auto;
-
+.navbar {
+  background-color: #0c112a;
+  max-width: 1200px;
+  margin: auto;
 }
-.navbar__container{
-    display: flex;
-    align-content: center;
-    justify-content: space-between;
+.navbar__container {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
 }
 
-.navbar__menu{
-    padding-top: 35px;
+.navbar__menu {
+  padding-top: 35px;
 }
 
 .navbar__logo {
-    height: 6em;
-    width: 6em;
+  height: 6em;
+  width: 6em;
 }
 
-.navbar__icon{
-   color: #fff;
+.navbar__icon {
+  color: #fff;
+}
+@media screen and (max-width: 1240px) {
+  .navbar {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+  }
 }
