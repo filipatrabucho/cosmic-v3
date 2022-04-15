@@ -1,4 +1,16 @@
-.routemap{
-    background-color: rgb(12,18,40);
-    color: white;
+.routemap {
+  display: flex;
+}
+
+.text {
+  text-decoration: none;
+  color: #bbbb;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  display: flex;
+}
+
+.maps {
+  display: flex;
 }
