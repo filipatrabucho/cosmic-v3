@@ -7,6 +7,7 @@ import Routemap from "./component/routemap/routemap";
 import Footer from "./component/footer/footer";
 import GraphicsPage from "./pages/GraphicsPage";
 import ContentPage from "./pages/ContentPage";
+import ProfilePage from "./pages/ProfilePage";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
         <Routemap />
         <Routes>
           <Route path="/cosmicgraphicspack" element={<GraphicsPage />} />
-          <Route path="/content" element={<ContentPage/>} />
+          <Route path="/content" element={<ContentPage />} />
+          <Route path="/profiles" element={<ProfilePage />} />
         </Routes>
         <Footer />
       </Router>
