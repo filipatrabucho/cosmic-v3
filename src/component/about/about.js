@@ -16,13 +16,21 @@ function About({ name, dep, text, linkedin, behance, www }) {
           <p className="about__description">{text}</p>
         </div>
         <a href={linkedin} className="about__link">
-          <img src={linkedin_icon} className="about__social" />
+          <img
+            src={linkedin_icon}
+            className="about__social"
+            alt="linkedin icon"
+          />
         </a>
         <a href={behance} className="about__link">
-          <img src={behance_icon} className="about__social" />
+          <img
+            src={behance_icon}
+            className="about__social"
+            alt="behance icon"
+          />
         </a>
         <a href={www} className="about__link">
-          <img src={www_icon} className="about__social" />
+          <img src={www_icon} className="about__social" alt="Www icon" />
         </a>
       </div>
     </>

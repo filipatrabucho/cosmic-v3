@@ -3,7 +3,7 @@ import About from "../component/about/about";
 import icon from "../assets/about_icon.png";
 import "../../src/component/about/about.css";
 import Routemap from "../component/routemap/routemap";
-
+import aboutimg from "../assets/aboutus_banner.png";
 function AboutPage() {
   const routes = [
     {
@@ -17,7 +17,7 @@ function AboutPage() {
   ];
   return (
     <>
-      <div className="about__banner"></div>
+      <img className="about__banner" alt="About Banner" src={aboutimg} />
       <Routemap routes={routes} />
       <div className="about">
         <h2 className="about__title">Everywhere Team</h2>
