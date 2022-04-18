@@ -1,12 +1,10 @@
-import React from 'react'
-import Hiring from '../component/hiring/hiring'
+import React from "react";
+/*import Hiring from "../component/hiring/hiring";*/
+import Navimg from "../assets/hiring_banner.png";
+import "../component/hiring/hiring.css";
 
 function HiringPage() {
-    return (
-        <div>
-            <Hiring/>
-        </div>
-    )
+  return <img src={Navimg} alt="Banner Hiring" className="hiring__banner" />;
 }
 
 export default HiringPage;

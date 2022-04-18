@@ -1,13 +1,8 @@
 import React from "react";
-import { Navimg } from "../../assets/hiring_banner.svg";
+import "./hiring.css";
 
 function Hiring() {
-  return (
-    <div>
-      <img src={Navimg} alt={Navimg} />
-      <h1>Hello</h1>
-    </div>
-  );
+  return <></>;
 }
 
 export default Hiring;

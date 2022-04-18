@@ -2,6 +2,7 @@ import React from "react";
 import "../component/style/pp.css";
 import Routemap from "../component/routemap/routemap";
 import ppimage from "../assets/privacy_policy.png";
+
 function PrivacyPage() {
   const routes = [
     {
@@ -16,9 +17,10 @@ function PrivacyPage() {
   return (
     <>
       <img src={ppimage} className="pp__banner" alt="PP Banner" />
+      <div className="ppmoblie__banner"></div>
       <Routemap routes={routes} />
       <div className="pp__container">
-        <h3 className="pp__title">Privacy Policy</h3>
+        <h2 className="pp__title">Privacy Policy</h2>
 
         <div className="pp__line"></div>
 
