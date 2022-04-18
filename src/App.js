@@ -7,6 +7,7 @@ import GraphicsPage from "./pages/GraphicsPage";
 import PrivacyPage from "./pages/PrivacyPage";
 import ErrorPage from "./pages/ErrorPage";
 import AboutPage from "./pages/AboutPage";
+import ContactusPage from "./pages/ContactusPage";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/cosmicgraphicspack" element={<GraphicsPage />} />
           <Route path="/privacypage" element={<PrivacyPage />} />
           <Route path="/aboutus" element={<AboutPage />} />
+          <Route path="/contactus" element={<ContactusPage />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
         <Footer />

@@ -1,5 +1,5 @@
 import React from "react";
-import "../component/privacypolicy/error.css";
+import "../component/style/error.css";
 
 function ErrorPage() {
   return <div className="error__banner"></div>;

@@ -1,19 +1,16 @@
 .pp__banner {
-  background-image: url("../../assets/privacy_policy.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 31.25rem;
   width: 100%;
 }
+
 .pp__container {
   color: #e0eaf8;
   max-width: 1200px;
   margin: auto;
 }
-
 .pp__title {
   text-align: center;
-  padding-bottom: 4.375rem;
+  font-family: "Space Quest Italic";
+  line-height: 5.1975rem;
 }
 .pp__subtitle {
   padding-bottom: 1.25rem;
@@ -27,9 +24,10 @@
   max-width: 1200px;
   margin: auto;
 }
-p {
+.pp__text {
   padding-bottom: 0.625rem;
   font-size: 1.375rem;
+  text-align: justify;
 }
 
 @media screen and (min-width: 901px) and (max-width: 1300px) {
