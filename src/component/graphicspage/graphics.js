@@ -1,8 +1,6 @@
 import React from "react";
 
-
 import "./graphicspage.css";
-
 
 function GraphicsPage({ title, text, img, button }) {
   return (

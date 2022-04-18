@@ -10,7 +10,9 @@ import PrivacyPage from "./pages/PrivacyPage";
 import ErrorPage from "./pages/ErrorPage";
 import AboutPage from "./pages/AboutPage";
 import ContactusPage from "./pages/ContactusPage";
+import FAQPage from "./pages/FAQPage";
 import "./App.css";
+
 
 function App() {
   return (
@@ -19,17 +21,15 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/cosmicgraphicspack" element={<GraphicsPage />} />
-
           <Route path="/content" element={<ContentPage />} />
           <Route path="/profiles" element={<ProfilePage />} />
           <Route path="/hiring" element={<HiringPage />} />
           <Route path="/privacypage" element={<PrivacyPage />} />
           <Route path="/aboutus" element={<AboutPage />} />
           <Route path="/contactus" element={<ContactusPage />} />
+          <Route path="faq" element={<FAQPage />} />
           <Route path="*" element={<ErrorPage />} />
-          <Route path="/content" element={<ContentPage />} />
-          <Route path="/profiles" element={<ProfilePage />} />
-          <Route path="/hiring" element={<HiringPage />} />
+          <Route path="/faq" element={<FAQPage />} />
         </Routes>
         <Footer />
       </Router>
