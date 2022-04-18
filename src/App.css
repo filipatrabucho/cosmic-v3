@@ -1,3 +1,33 @@
-.main{
-    background-color: #0C112A;
+@import url("https://fonts.googleapis.com/css2?family=Saira:wght@300;400;500&display=swap");
+
+.main {
+  background-color: #0c112a;
+  overflow-x: hidden;
+  font-family: "Saira", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 7%;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+button {
+  cursor: pointer;
+  border-style: none;
+  padding: 0.5em 1.5em;
+  background-color: #f26929;
+  text-transform: capitalize;
+  border-radius: 3px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+button,
+p {
+  color: white;
 }

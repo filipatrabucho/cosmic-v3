@@ -1,6 +1,6 @@
 .graphics {
   background-color: #0c112a;
-  padding-bottom: 3em;
+  padding-bottom: 2em;
   width: 100%;
   overflow-x: hidden;
 }
@@ -11,13 +11,15 @@
   margin-top: 0;
   margin-bottom: 0;
   text-align: center;
-  color: #fff;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .graphics__container {
   max-width: 1200px;
-  margin: auto;
+  margin: 0 7%;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 .graphics__line {
@@ -33,7 +35,7 @@
 }
 
 .graphics__logo {
-  height: 7em;
+  height: 9em;
   width: 10em;
   padding-right: 1em;
   padding-top: 2em;
@@ -47,14 +49,16 @@
   align-items: flex-start;
   flex-direction: column;
 }
+
 .graphics__subtitle {
   margin-bottom: 0em;
 }
 
 .graphics__description {
-    margin-right: 8em;
+  margin-right: 8em;
 }
 
+<<<<<<< HEAD:src/component/graphicspage/graphicspage.css
 .graphics__btn {
     padding: .5em 1.5em;
     color: white;
@@ -65,3 +69,37 @@
     cursor: pointer;
 
 }
+=======
+@media screen and (min-width: 250px) and (max-width: 950px) {
+  .graphics__description {
+    margin-right: 2em;
+  }
+}
+
+@media screen and (min-width: 250px) and (max-width: 700px) {
+  .graphics__container {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin: 0 2%;
+  }
+  .graphics__flex {
+    flex-direction: column;
+  }
+
+  .graphics__logo {
+    width: 100%;
+    height: 15em;
+  }
+
+  .graphics__wrapper {
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+  }
+
+  .graphics__description {
+    margin: 1em;
+    margin-bottom: 2em;
+  }
+}
+>>>>>>> 364167a58d36a35c6f8a70cd7e8571b62d172a7a:src/component/graphics/graphics.css

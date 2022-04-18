@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/COSMIC-EXODUS-FINAL 2.png';
+import logo from '../../assets/LogoCosmic-Exodus 1.svg';
 import {GiHamburgerMenu} from 'react-icons/gi';
 import './navbar.css';
 
