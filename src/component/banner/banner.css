@@ -1,23 +1,13 @@
-/* Centrar image em responsive*/
-
-.banner__container{
-   
-} 
-.banner__image{
-
-}
-.banner__image-mobile{
-    visibility: hidden;
-    display: none;
+.banner__container {
+  background-image: url("../../assets/purple_banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 40rem;
+  width: 100%;
 }
 
-@media screen and (max-width: 430px) {
-    .banner__image{
-        visibility: hidden;
-        display: none;
-    }
-    .banner__image-mobile{
-        visibility: visible;
-        display: block;
-    }
+@media screen and (max-width: 400px) {
+  .banner__container {
+    background-image: url("../../assets/vertical_banner.png");
+  }
 }

@@ -2,31 +2,30 @@ import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./component/navbar/navbar";
-import Banner from "./component/banner/banner";
-import Routemap from "./component/routemap/routemap";
-
-import logo from "./assets/COSMIC-EXODUS-FINAL 2.png";
-import content from "./assets/256 256 1.svg";
-import profilePic from "./assets/THANK WITHOU BG 1.svg";
 import Footer from './component/footer/footer';
-
 import GraphicsPage from "./pages/GraphicsPage";
 import ContentPage from "./pages/ContentPage";
 import ProfilePage from "./pages/ProfilePage";
 import HiringPage from "./pages/HiringPage";
+import PrivacyPage from "./pages/PrivacyPage";
+import ErrorPage from "./pages/ErrorPage";
+import AboutPage from "./pages/AboutPage";
+import ContactusPage from "./pages/ContactusPage";
 
 function App() {
   return (
     <div className="main">
       <Router>
         <NavBar />
-        <Banner />
-        <Routemap />
         <Routes>
           <Route path="/cosmicgraphicspack" element={<GraphicsPage />} />
           <Route path="/content" element={<ContentPage />} />
           <Route path="/profiles" element={<ProfilePage />} />
           <Route path="/hiring" element={<HiringPage />} />
+          <Route path="/privacypage" element={<PrivacyPage />} />
+          <Route path="/aboutus" element={<AboutPage />} />
+          <Route path="/contactus" element={<ContactusPage />} />
+          <Route path="*" element={<ErrorPage />} />
         </Routes>
         <Footer />
       </Router>

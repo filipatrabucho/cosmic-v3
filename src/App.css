@@ -31,3 +31,13 @@ button,
 p {
   color: white;
 }
+
+@font-face {
+  font-family: "Space Quest Italic";
+  src: url("../src/fonts/Space_Quest.ttf");
+}
+h2 {
+  font-family: "Space Quest Italic";
+  line-height: 5.1975rem;
+  text-align: center;
+}
