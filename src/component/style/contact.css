@@ -18,17 +18,17 @@
   font-size: 19px;
 }
 
-p {
+.contact__description {
   font-size: 1.375rem;
   color: #e0eaf8;
 }
+
 a {
   color: #e0eaf8;
 }
 
 form {
   text-align: center;
-  max-width: 600px;
   margin: auto;
 }
 
@@ -66,14 +66,11 @@ form {
 ::placeholder {
   color: black;
 }
-
 .contact__flex {
   display: flex;
   align-items: flex-end;
   flex-direction: column;
-
 }
-
 .contact__input {
   width: 100%;
   padding: 0.5rem;
@@ -82,60 +79,42 @@ form {
 .contact__message {
   resize: none;
 }
-
 .contact__info {
   font-size: 0.75rem;
   margin-left: 3em;
+}
+.contact__submit {
+  padding: 0.5em 1.5em;
+  color: white;
+  background-color: #f26929;
+  border-style: none;
+  text-transform: capitalize;
+  border-radius: 3px;
+  margin-bottom: 3em;
+  font-weight: bold;
+}
 
+@media screen and (min-width: 250px) and (max-width: 500px) {
+  .contact__title {
+    font-size: 2.375rem;
+  }
   .contact__responsive {
     display: block;
     line-height: 1.3;
     text-align: left;
-
+  }
   .contact__message {
     resize: none;
-
   }
-
+  .contact__description {
+    display: none;
+  }
   .contact__info {
-    font-size: 0.75rem;
-    margin-left: 3em;
+    display: none;
   }
-
-  .contact__submit {
-    padding: 0.5em 1.5em;
-    color: white;
-    background-color: #f26929;
-    border-style: none;
-    text-transform: capitalize;
-    border-radius: 3px;
-    margin-bottom: 3em;
-    font-weight: bold;
+  .contact__line-responsive {
+    display: block;
+    margin-bottom: 1.5em;
   }
-
-  @media screen and (min-width: 250px) and (max-width: 500px) {
-    .contact__title {
-      font-size: 2.375rem;
-    }
-
-    .contact__description {
-      display: none;
-    }
-
-    .contact__responsive {
-      display: block;
-      line-height: 1.3;
-      text-align: left;
-    }
-
-    .contact__info {
-      display: none;
-    }
-
-    .contact__line-responsive {
-      display: block;
-      margin-bottom: 1.5em;
-    }
-  }
-
+}
 

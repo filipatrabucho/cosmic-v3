@@ -20,7 +20,6 @@ function ContactusPage() {
           by Cosmic Exodus and how we use it.
         </p>
         <div className="contact__line-responsive"></div>
-        =======
         <div className="contact__line"></div>
         <form action="" method="post">
           <input className="contact__input" type="text" placeholder="Name" />

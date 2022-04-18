@@ -16,6 +16,7 @@
 button {
   cursor: pointer;
   background-color: #f26929;
+  text-align: center;
   border-style: none;
   padding: 0.5em 1.5em;
   text-transform: capitalize;
