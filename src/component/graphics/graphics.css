@@ -27,7 +27,6 @@
   margin: 0;
 }
 
-
 .graphics__flex {
   display: flex;
   justify-content: center;
@@ -58,18 +57,16 @@
   margin-right: 8em;
 }
 
-<<<<<<< HEAD:src/component/graphicspage/graphicspage.css
 .graphics__btn {
-    padding: .5em 1.5em;
-    color: white;
-    background-color: #F26929;
-    border-style: none;
-    text-transform: capitalize;
-    border-radius: 3px;
-    cursor: pointer;
-
+  padding: 0.5em 1.5em;
+  color: white;
+  background-color: #f26929;
+  border-style: none;
+  text-transform: capitalize;
+  border-radius: 3px;
+  cursor: pointer;
 }
-=======
+
 @media screen and (min-width: 250px) and (max-width: 950px) {
   .graphics__description {
     margin-right: 2em;
@@ -102,4 +99,3 @@
     margin-bottom: 2em;
   }
 }
->>>>>>> 364167a58d36a35c6f8a70cd7e8571b62d172a7a:src/component/graphics/graphics.css

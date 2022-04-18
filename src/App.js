@@ -10,13 +10,6 @@ import PrivacyPage from "./pages/PrivacyPage";
 import ErrorPage from "./pages/ErrorPage";
 import AboutPage from "./pages/AboutPage";
 import ContactusPage from "./pages/ContactusPage";
-
-
-import Footer from './component/footer/footer';
-import GraphicsPage from "./pages/GraphicsPage";
-import ContentPage from "./pages/ContentPage";
-import ProfilePage from "./pages/ProfilePage";
-import HiringPage from "./pages/HiringPage";
 import "./App.css";
 
 function App() {
