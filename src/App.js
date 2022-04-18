@@ -13,7 +13,6 @@ import ContactusPage from "./pages/ContactusPage";
 import FAQPage from "./pages/FAQPage";
 import "./App.css";
 
-
 function App() {
   return (
     <div className="main">
@@ -29,7 +28,6 @@ function App() {
           <Route path="/contactus" element={<ContactusPage />} />
           <Route path="faq" element={<FAQPage />} />
           <Route path="*" element={<ErrorPage />} />
-          <Route path="/faq" element={<FAQPage />} />
         </Routes>
         <Footer />
       </Router>

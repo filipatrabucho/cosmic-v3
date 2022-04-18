@@ -71,15 +71,30 @@ form {
   display: flex;
   align-items: flex-end;
   flex-direction: column;
+
 }
 
-  .contact__input {
-    width: 100%;
-    padding: 0.5rem;
-    margin: 1.25rem;
-  }
+.contact__input {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 1.25rem;
+}
+.contact__message {
+  resize: none;
+}
+
+.contact__info {
+  font-size: 0.75rem;
+  margin-left: 3em;
+
+  .contact__responsive {
+    display: block;
+    line-height: 1.3;
+    text-align: left;
+
   .contact__message {
     resize: none;
+
   }
 
   .contact__info {
@@ -122,4 +137,5 @@ form {
       margin-bottom: 1.5em;
     }
   }
+
 
