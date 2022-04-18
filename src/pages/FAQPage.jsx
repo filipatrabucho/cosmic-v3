@@ -1,7 +1,6 @@
 import React from 'react'
 import BannerImg from '../assets/FAQ 1.png';
 
-
 function FAQPage() {
     return (
         <div>
