@@ -4,7 +4,6 @@ import { FiSquare } from "react-icons/fi";
 import { ImCross } from "react-icons/im";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import { useState } from "react";
-
 import "./content.css";
 import "@splidejs/splide/dist/css/splide.min.css";
 
