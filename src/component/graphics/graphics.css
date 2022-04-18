@@ -2,6 +2,7 @@
   background-color: #0c112a;
   padding-bottom: 2em;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .graphics__title {
@@ -10,7 +11,6 @@
   margin-top: 0;
   margin-bottom: 0;
   text-align: center;
-  color: #fff;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -49,6 +49,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
+
 .graphics__subtitle {
   margin-bottom: 0em;
 }
@@ -58,12 +59,14 @@
 }
 
 .graphics__btn {
-  padding: 0.5em 1.5em;
-  color: white;
-  background-color: #f26929;
-  border-style: none;
-  text-transform: capitalize;
-  border-radius: 3px;
+    padding: .5em 1.5em;
+    color: white;
+    background-color: #F26929;
+    border-style: none;
+    text-transform: capitalize;
+    border-radius: 3px;
+    cursor: pointer;
+
 }
 
 @media screen and (min-width: 250px) and (max-width: 950px) {
