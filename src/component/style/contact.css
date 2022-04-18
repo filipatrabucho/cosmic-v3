@@ -1,14 +1,22 @@
 .contact {
+  margin: 0 6%;
 }
 .contact__title {
   text-align: center;
   color: #e0eaf8;
   font-size: 4.375rem;
 }
-p {
+
+.contact__description, .contact__responsive {
   font-size: 1.375rem;
   color: #e0eaf8;
 }
+
+.contact__responsive {
+  display: none;
+  font-size: 19px;
+}
+
 a {
   color: #e0eaf8;
 }
@@ -18,23 +26,84 @@ form {
   max-width: 600px;
   margin: auto;
 }
+
+.contact__line-responsive {
+  border: 1px solid #16215b;
+  margin: 0;
+  display: none;
+}
+
+.contact__input, .contact__message {
+  border-radius: 6px;
+  border-style: none;
+  background-color: #E0EAF8;
+  box-sizing: border-box;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 0.5rem;
+}
+
 .contact__input {
   width: 100%;
-  padding: 0.5rem;
-  margin: 1.25rem;
 }
+
 .contact__message {
   resize: none;
+  width: 100%;
+  height: 10em;
+}
+
+.contact__message::placeholder {
+  font-size: 14px;
+}
+
+::placeholder {
+  color: black;
+}
+
+.contact__flex {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
 }
 
 .contact__info {
   font-size: 0.75rem;
+  margin-left: 3em;
 }
-button {
+
+.contact__submit {
   padding: 0.5em 1.5em;
   color: white;
   background-color: #f26929;
   border-style: none;
   text-transform: capitalize;
   border-radius: 3px;
+  margin-bottom: 3em;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 250px) and (max-width: 500px) {
+  .contact__title {
+    font-size: 2.375rem;
+  }
+
+  .contact__description {
+    display: none;
+  }
+  
+  .contact__responsive {
+    display: block;
+    line-height: 1.3;
+    text-align: left;
+  }
+
+  .contact__info {
+    display: none;
+  }
+
+  .contact__line-responsive {
+    display: block;
+    margin-bottom: 1.5em;
+  }
 }
