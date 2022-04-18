@@ -74,15 +74,17 @@ form {
 .contact__input {
   width: 100%;
   padding: 0.5rem;
-  margin: 1.25rem;
 }
+
 .contact__message {
   resize: none;
 }
+
 .contact__info {
   font-size: 0.75rem;
   margin-left: 3em;
 }
+
 .contact__submit {
   padding: 0.5em 1.5em;
   color: white;
