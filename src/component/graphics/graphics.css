@@ -2,6 +2,7 @@
   background-color: #0c112a;
   padding-bottom: 2em;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .graphics__title {
@@ -10,7 +11,6 @@
   margin-top: 0;
   margin-bottom: 0;
   text-align: center;
-  color: #fff;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -26,7 +26,6 @@
   border: 1px solid #16215b;
   margin: 0;
 }
-
 
 .graphics__flex {
   display: flex;
@@ -49,6 +48,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
+
 .graphics__subtitle {
   margin-bottom: 0em;
 }
@@ -64,6 +64,7 @@
   border-style: none;
   text-transform: capitalize;
   border-radius: 3px;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 250px) and (max-width: 950px) {

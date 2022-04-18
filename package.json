@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@splidejs/react-splide": "^0.7.5",
+    "@splidejs/splide": "^4.0.1",
     "@types/react-breadcrumbs-dynamic": "^1.0.4",
     "breadcrumb": "^1.0.0",
     "cra-template": "1.1.3",
