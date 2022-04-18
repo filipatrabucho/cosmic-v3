@@ -1,9 +1,10 @@
 import React from "react";
 import About from "../component/about/about";
 import icon from "../assets/about_icon.png";
-import "../../src/component/about/about.css";
 import Routemap from "../component/routemap/routemap";
 import aboutimg from "../assets/aboutus_banner.png";
+import "../../src/component/about/about.css";
+
 function AboutPage() {
   const routes = [
     {
