@@ -46,8 +46,134 @@ function AboutPage() {
         <div className="about__container">
           <About
             img={icon}
-            name={"STEVEN"}
-            dep={"Designer"}
+            name={"TOM"}
+            dep={"Cosmic Pioneer"}
+            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
+            linkedin={"linkedin.com"}
+            behance={"linkedin.com"}
+            www={"linkedin.com"}
+          />
+          <About
+            img={icon}
+            name={"OSCAR"}
+            dep={"Cosmic Dev"}
+            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
+            linkedin={"linkedin.com"}
+            behance={"linkedin.com"}
+            www={"linkedin.com"}
+          />
+          <About
+            img={icon}
+            name={"TRABS"}
+            dep={"Cosmic Dev"}
+            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
+            linkedin={"linkedin.com"}
+            behance={"linkedin.com"}
+            www={"linkedin.com"}
+          />
+          <About
+            img={icon}
+            name={"SÉRGIO"}
+            dep={"Cosmic Dev"}
+            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
+            linkedin={"linkedin.com"}
+            behance={"linkedin.com"}
+            www={"linkedin.com"}
+          />
+          <About
+            img={icon}
+            name={"FELIPE"}
+            dep={"Cosmic Game Dev"}
+            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
+            linkedin={"linkedin.com"}
+            behance={"linkedin.com"}
+            www={"linkedin.com"}
+          />
+          <About
+            img={icon}
+            name={"BROTHERHOOD"}
+            dep={"Cosmic Game Dev"}
+            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
+            linkedin={"linkedin.com"}
+            behance={"linkedin.com"}
+            www={"linkedin.com"}
+          />
+          <About
+            img={icon}
+            name={"SÉRGIO"}
+            dep={"Cosmic Designer"}
+            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
+            linkedin={"linkedin.com"}
+            behance={"linkedin.com"}
+            www={"linkedin.com"}
+          />
+          <About
+            img={icon}
+            name={"FRANCISCO"}
+            dep={"Cosmic Designer"}
+            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
+            linkedin={"linkedin.com"}
+            behance={"linkedin.com"}
+            www={"linkedin.com"}
+          />
+          <About
+            img={icon}
+            name={"DUKKHART"}
+            dep={"Cosmic Composer"}
+            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
+            linkedin={"linkedin.com"}
+            behance={"linkedin.com"}
+            www={"linkedin.com"}
+          />
+          <About
+            img={icon}
+            name={"JONATHAN"}
+            dep={"Cosmic 3D Artist"}
+            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
+            linkedin={"linkedin.com"}
+            behance={"linkedin.com"}
+            www={"linkedin.com"}
+          />
+          <About
+            img={icon}
+            name={"KENNEDY"}
+            dep={"Cosmic 3D Artist"}
+            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
+            linkedin={"linkedin.com"}
+            behance={"linkedin.com"}
+            www={"linkedin.com"}
+          />
+          <About
+            img={icon}
+            name={"SHAWN"}
+            dep={"Cosmic 3D Artist"}
+            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
+            linkedin={"linkedin.com"}
+            behance={"linkedin.com"}
+            www={"linkedin.com"}
+          />
+          <About
+            img={icon}
+            name={"YSAK"}
+            dep={"Cosmic Illustrator"}
+            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
+            linkedin={"linkedin.com"}
+            behance={"linkedin.com"}
+            www={"linkedin.com"}
+          />
+          <About
+            img={icon}
+            name={"ELLIE"}
+            dep={"Cosmic Illustrator"}
+            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
+            linkedin={"linkedin.com"}
+            behance={"linkedin.com"}
+            www={"linkedin.com"}
+          />
+          <About
+            img={icon}
+            name={"DÉBORA"}
+            dep={"Cosmic Support"}
             text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
             linkedin={"linkedin.com"}
             behance={"linkedin.com"}
@@ -56,7 +182,7 @@ function AboutPage() {
           <About
             img={icon}
             name={"STEVEN"}
-            dep={"Designer"}
+            dep={"Cosmic Advisor"}
             text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
             linkedin={"linkedin.com"}
             behance={"linkedin.com"}
@@ -64,8 +190,8 @@ function AboutPage() {
           />
           <About
             img={icon}
-            name={"STEVEN"}
-            dep={"Designer"}
+            name={"JOSH"}
+            dep={"Cosmic Advisor"}
             text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
             linkedin={"linkedin.com"}
             behance={"linkedin.com"}
@@ -73,8 +199,8 @@ function AboutPage() {
           />
           <About
             img={icon}
-            name={"STEVEN"}
-            dep={"Designer"}
+            name={"JOSÉ"}
+            dep={"Cosmic Advisor"}
             text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
             linkedin={"linkedin.com"}
             behance={"linkedin.com"}
@@ -82,8 +208,8 @@ function AboutPage() {
           />
           <About
             img={icon}
-            name={"STEVEN"}
-            dep={"Designer"}
+            name={"RENATO"}
+            dep={"Cosmic Advisor"}
             text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
             linkedin={"linkedin.com"}
             behance={"linkedin.com"}
@@ -91,62 +217,8 @@ function AboutPage() {
           />
           <About
             img={icon}
-            name={"STEVEN"}
-            dep={"Designer"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"STEVEN"}
-            dep={"Designer"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"STEVEN"}
-            dep={"Designer"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"STEVEN"}
-            dep={"Designer"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"STEVEN"}
-            dep={"Designer"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"STEVEN"}
-            dep={"Designer"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"STEVEN"}
-            dep={"Designer"}
+            name={"MOOTZ"}
+            dep={"Cosmic Advisor"}
             text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
             linkedin={"linkedin.com"}
             behance={"linkedin.com"}

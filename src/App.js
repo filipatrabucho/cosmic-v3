@@ -19,13 +19,13 @@ function App() {
       <Router>
         <NavBar />
         <Routes>
-          <Route path="/cosmicgraphicspack" element={<GraphicsPage />} />
+          <Route path="/cosmicpack" element={<GraphicsPage />} />
           <Route path="/content" element={<ContentPage />} />
           <Route path="/profiles" element={<ProfilePage />} />
           <Route path="/hiring" element={<HiringPage />} />
           <Route path="/privacypage" element={<PrivacyPage />} />
-          <Route path="/aboutus" element={<AboutPage />} />
-          <Route path="/contactus" element={<ContactusPage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/contact" element={<ContactusPage />} />
           <Route path="faq" element={<FAQPage />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>

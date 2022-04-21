@@ -1,15 +1,15 @@
 export const jobs = [
   {
     id: 1,
-    position: "Illustrator",
-    label: "artist",
+    position: "Technical Writer",
+    label: "community_support",
     location: "remote",
     detail:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
   {
     id: 2,
-    position: "3D Artist / Animator",
+    position: "3D Artist",
     label: "artist",
     location: "remote",
     detail:
@@ -17,7 +17,7 @@ export const jobs = [
   },
   {
     id: 3,
-    position: "Social Media Wizard",
+    position: "Marketeer",
     label: "marketing",
     location: "remote",
     detail:
@@ -26,46 +26,6 @@ export const jobs = [
   {
     id: 4,
     position: "Community Backstage Chief",
-    label: "community_support",
-    location: "remote",
-    detail:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  },
-  {
-    id: 5,
-    position: "Front-end Developer",
-    label: "devellopment",
-    location: "remote",
-    detail:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  },
-  {
-    id: 6,
-    position: "Community Support Manager",
-    label: "community_support",
-    location: "remote",
-    detail:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  },
-  {
-    id: 7,
-    position: "Facebook Specialist",
-    label: "marketing",
-    location: "remote",
-    detail:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  },
-  {
-    id: 8,
-    position: "Back-end Developer",
-    label: "devellopment",
-    location: "remote",
-    detail:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  },
-  {
-    id: 9,
-    position: "Community Officer Team Support",
     label: "community_support",
     location: "remote",
     detail:

@@ -49,16 +49,14 @@
 }
 .about__flex {
   text-align: center;
-  border: 1.25rem solid rgba(11, 18, 52, 0.2);
-  border-radius: 0.625rem;
-  box-shadow: 0 0 8px 3px #000;
+  box-shadow: 0px 3px 27px rgba(0, 0, 0, 0.39);
+  border-radius: 10px;
 }
 .about__link {
   padding: 0.625rem;
 }
 .about__departement {
   border-bottom: 0.125rem solid #30d1ff;
-  width: 5rem;
 }
 
 .about__banner {
