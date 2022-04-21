@@ -1,11 +1,23 @@
 import React from "react";
 import "../component/style/contact.css";
 import Banner from "../component/banner/banner";
+import Routemap from "../component/routemap/routemap";
 
 function ContactusPage() {
+  const routes = [
+    {
+      name: "Home",
+      href: "/",
+    },
+    {
+      name: "Contact Us",
+      href: "/contactus",
+    },
+  ];
   return (
     <>
       <Banner />
+      <Routemap routes={routes} />
       <div className="contact">
         <h2 className="contact__title">Contact Us</h2>
         <div className="graphics__line"></div>

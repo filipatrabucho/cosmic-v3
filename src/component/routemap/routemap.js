@@ -4,8 +4,6 @@ import "./routemap.css";
 
 function Routemap(props) {
   const routeLength = Object.keys(props.routes).length;
-  console.log(routeLength);
-
   return (
     <div className="routemap">
       {props.routes.map((info, index) => {
