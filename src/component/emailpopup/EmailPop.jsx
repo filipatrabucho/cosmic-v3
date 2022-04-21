@@ -1,8 +1,7 @@
 import React from "react";
-import { ImCross } from "react-icons/im";
 import "./EmailPopup.css";
+import { ImCross } from "react-icons/im";
 import { useState } from "react";
-import PopupPage from "../../pages/PopupPage";
 
 function EmailPopup() {
   const [closePopup, setClosePopup] = useState(false);
@@ -35,7 +34,6 @@ function EmailPopup() {
           </form>
         </div>
       </div>
-      {closePopup && <PopupPage />}
     </div>
   );
 }

@@ -8,7 +8,7 @@ function PopupPage() {
   useEffect(() => {
     setTimeout(function() {
       setShowPopup(true);
-    }, 1000);
+    }, 30000);
   });
 
   return (
