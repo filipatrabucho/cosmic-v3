@@ -11,6 +11,7 @@ import ErrorPage from "./pages/ErrorPage";
 import AboutPage from "./pages/AboutPage";
 import ContactusPage from "./pages/ContactusPage";
 import FAQPage from "./pages/FAQPage";
+import PopupPage from "./pages/PopupPage";
 import "./App.css";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <div className="main">
       <Router>
         <NavBar />
+        <PopupPage />
         <Routes>
           <Route path="/cosmicgraphicspack" element={<GraphicsPage />} />
           <Route path="/content" element={<ContentPage />} />

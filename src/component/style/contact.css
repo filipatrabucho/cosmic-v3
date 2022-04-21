@@ -41,9 +41,6 @@ form {
 
 .contact__input,
 .contact__message {
-  border-radius: 6px;
-  border-style: none;
-  background-color: #e0eaf8;
   box-sizing: border-box;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -67,6 +64,7 @@ form {
 ::placeholder {
   color: black;
 }
+
 .contact__flex {
   display: flex;
   align-items: flex-end;
