@@ -1,23 +1,43 @@
-import React from 'react';
-import logo from '../../assets/LogoCosmic-Exodus 1.svg';
-import {GiHamburgerMenu} from 'react-icons/gi';
-import './navbar.css';
+import React, { useState } from "react";
+import classNames from "classnames";
+import logo from "../../assets/LogoCosmic-Exodus 1.svg";
+import NavLinks from "../utils/navlinks";
+import "./navbar.css";
 
-function NavBar(){
+const App = () => {
+  const [openMenu, setopenMenu] = useState(false);
 
-    return (
-        <div className="navbar">
-            <div className="navbar__container">
-                <img src={logo} alt="logo" className="navbar__logo" />
+  const active = classNames("mobile-menu", {
+    open: openMenu,
+  });
 
-                <div className="navbar__menu">
-                    <GiHamburgerMenu className="navbar__icon" onClick={()=>console.log("click")}/>
-                </div>
-            </div>
+  return (
+    <>
+      <header className="navbar">
+        <div className="navbar__container">
+          <span className="navbar__left">
+            <a className="navbar__link" href="/">
+              <img src={logo} alt="logo" className="navbar__logo" />
+            </a>
+          </span>
+          <span className="navbar__links">
+            <button
+              aria-label="Toggle Mobile Menu Button"
+              className={active}
+              onClick={() => {
+                setopenMenu((openMenu) => !openMenu);
+              }}
+            >
+              <div className="bar-one" />
+              <div className="bar-two" />
+              <div className="bar-three" />
+            </button>
+          </span>
         </div>
-        
-    );
+      </header>
+      <NavLinks open={openMenu} />
+    </>
+  );
 };
-export default NavBar;
 
-
+export default App;

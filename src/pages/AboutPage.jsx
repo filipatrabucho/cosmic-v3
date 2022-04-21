@@ -1,9 +1,9 @@
 import React from "react";
 import About from "../component/about/about";
-import icon from "../assets/about_icon.png";
 import Routemap from "../component/routemap/routemap";
 import aboutimg from "../assets/aboutus_banner.png";
 import mobileBanner from "../assets/vertical_banner.png";
+
 import "../../src/component/about/about.css";
 
 function AboutPage() {
@@ -44,190 +44,10 @@ function AboutPage() {
           happy and excited to wake up everyday!
         </p>
         <div className="about__container">
-          <About
-            img={icon}
-            name={"TOM"}
-            dep={"Cosmic Pioneer"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"OSCAR"}
-            dep={"Cosmic Dev"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"TRABS"}
-            dep={"Cosmic Dev"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"SÉRGIO"}
-            dep={"Cosmic Dev"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"FELIPE"}
-            dep={"Cosmic Game Dev"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"BROTHERHOOD"}
-            dep={"Cosmic Game Dev"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"SÉRGIO"}
-            dep={"Cosmic Designer"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"FRANCISCO"}
-            dep={"Cosmic Designer"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"DUKKHART"}
-            dep={"Cosmic Composer"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"JONATHAN"}
-            dep={"Cosmic 3D Artist"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"KENNEDY"}
-            dep={"Cosmic 3D Artist"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"SHAWN"}
-            dep={"Cosmic 3D Artist"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"YSAK"}
-            dep={"Cosmic Illustrator"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"ELLIE"}
-            dep={"Cosmic Illustrator"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"DÉBORA"}
-            dep={"Cosmic Support"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"STEVEN"}
-            dep={"Cosmic Advisor"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"JOSH"}
-            dep={"Cosmic Advisor"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"JOSÉ"}
-            dep={"Cosmic Advisor"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"RENATO"}
-            dep={"Cosmic Advisor"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"MOOTZ"}
-            dep={"Cosmic Advisor"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
+          <About />
         </div>
       </div>
     </>
   );
 }
-
 export default AboutPage;
