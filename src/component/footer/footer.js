@@ -12,7 +12,7 @@ function Footer() {
     <div className="footer">
       <div className="footer__line"></div>
       <div className="footer__brands">
-        <NavLink to="/" className="footer__link">
+        <NavLink to="/" className="footer__cosmiclink">
           <img src={logo} alt="logo" className="footer__logo" />
         </NavLink>
         <div className="footer__icon">
@@ -20,45 +20,30 @@ function Footer() {
         </div>
         <img src={everywhere} alt="brand" className="footer__brand" />
       </div>
+      <div className="footer__menu">
+        <NavLink to="/" className="footer__link">
+          Dapp
+        </NavLink>
+        <NavLink to="/blog" className="footer__link">
+          Cosmic Blog
+        </NavLink>
+        <NavLink to="/cosmicpack" className="footer__link">
+          Cosmic Stats
+        </NavLink>
+        <NavLink to="/hiring" className="footer__link">
+          Recruting
+        </NavLink>
+        <NavLink to="/contact" className="footer__link">
+          Contact Us
+        </NavLink>
+        <NavLink to="/faq" className="footer__link">
+          Faq
+        </NavLink>
 
-      <ul className="footer__list">
-        <li className="footer__item">
-          <NavLink to="/contact" className="footer__link">
-            Contact Us
-          </NavLink>
-        </li>
-        <li className="footer__item">
-          <NavLink to="/faq" className="footer__link">
-            Faq
-          </NavLink>
-        </li>
-        <li className="footer__item">
-          <NavLink to="/cosmicpack" className="footer__link">
-            Cosmic Pack
-          </NavLink>
-        </li>
-        <li className="footer__item">
-          <NavLink to="/hiring" className="footer__link">
-            Recruting
-          </NavLink>
-        </li>
-        <li className="footer__item">
-          <NavLink to="/" className="footer__link">
-            Dao
-          </NavLink>
-        </li>
-
-        <li className="footer__item">
-          <NavLink to="/" className="footer__link-others">
-            Audit
-          </NavLink>
-        </li>
-        <li className="footer__item">
-          <NavLink to="/" className="footer__link-others">
-            How To Start
-          </NavLink>
-        </li>
-      </ul>
+        <NavLink to="/" className="footer__link-others">
+          Audit
+        </NavLink>
+      </div>
 
       <div className="footer__cosmicexodus">
         <img src={cosmic} alt="logo" className="footer__cosmicsesodus2022" />
