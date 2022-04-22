@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import classNames from "classnames";
 import { NavLink } from "react-router-dom";
-import "../../component/navbar/navbar.css";
+import "../../component/style/navlinks.css";
 
 const NavLinks = ({ open }) => {
   const [active, setActive] = useState(false);
@@ -17,13 +17,10 @@ const NavLinks = ({ open }) => {
       >
         Cosmic Pack
       </NavLink>
-      <NavLink className={`mobile-link ${active ? "active" : ""}`} to="/">
+      <NavLink className={`mobile-link ${active ? "active" : ""}`} to="/asdfs">
         Cosmic Dao
       </NavLink>
-      <NavLink
-        className={`mobile-link ${active ? "active" : ""}`}
-        to="/NavLinkbout"
-      >
+      <NavLink className={`mobile-link ${active ? "active" : ""}`} to="/about">
         About Us
       </NavLink>
       <NavLink
@@ -32,7 +29,10 @@ const NavLinks = ({ open }) => {
       >
         Privacy Policy
       </NavLink>
-      <NavLink className={`mobile-link ${active ? "active" : ""}`} to="/svmfer">
+      <NavLink
+        className={`mobile-link ${active ? "active" : ""}`}
+        to="/disclaimer"
+      >
         Disclaimer
       </NavLink>
     </nav>

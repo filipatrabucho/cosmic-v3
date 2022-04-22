@@ -11,6 +11,8 @@ import ErrorPage from "./pages/ErrorPage";
 import AboutPage from "./pages/AboutPage";
 import ContactusPage from "./pages/ContactusPage";
 import FAQPage from "./pages/FAQPage";
+import HomePage from "./pages/HomePage";
+import DisclaimerPage from "./pages/DisclaimerPage";
 import "./App.css";
 
 function App() {
@@ -19,6 +21,7 @@ function App() {
       <Router>
         <NavBar />
         <Routes>
+          <Route path="/" element={<HomePage />} />
           <Route path="/cosmicpack" element={<GraphicsPage />} />
           <Route path="/content" element={<ContentPage />} />
           <Route path="/profiles" element={<ProfilePage />} />
@@ -27,6 +30,7 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactusPage />} />
           <Route path="faq" element={<FAQPage />} />
+          <Route path="/disclaimer" element={<DisclaimerPage />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
         <Footer />

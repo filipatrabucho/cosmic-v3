@@ -21,7 +21,7 @@ function Footer() {
         <img src={everywhere} alt="brand" className="footer__brand" />
       </div>
       <div className="footer__menu">
-        <NavLink to="/" className="footer__link">
+        <NavLink to="/dapp" className="footer__link">
           Dapp
         </NavLink>
         <NavLink to="/blog" className="footer__link">
@@ -40,7 +40,7 @@ function Footer() {
           Faq
         </NavLink>
 
-        <NavLink to="/" className="footer__link-others">
+        <NavLink to="/audit" className="footer__link-others">
           Audit
         </NavLink>
       </div>
