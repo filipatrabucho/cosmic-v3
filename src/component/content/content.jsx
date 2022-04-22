@@ -49,9 +49,8 @@ function Content({ title }) {
               breakpoints: {
                 950: {
                   perPage: 2,
-                  perMove: 2,
-                  padding: { left: 10, right: 10 },
-                  gap: 0,
+                  /* perMove: 2,
+                  gap: 0, */
                 },
               },
             }}
