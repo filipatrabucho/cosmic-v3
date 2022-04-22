@@ -13,6 +13,7 @@ import ContactusPage from "./pages/ContactusPage";
 import FAQPage from "./pages/FAQPage";
 import HomePage from "./pages/HomePage";
 import DisclaimerPage from "./pages/DisclaimerPage";
+import PopupPage from "./pages/PopupPage";
 import "./App.css";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     <div className="main">
       <Router>
         <NavBar />
+        <PopupPage />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/cosmicpack" element={<GraphicsPage />} />
