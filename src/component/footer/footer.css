@@ -50,14 +50,7 @@
   padding: 1.25rem;
   padding-bottom: 0;
 }
-.active {
-  text-decoration: none;
-  color: #e0eaf8;
-  text-transform: uppercase;
-  border-bottom: 0.125rem solid #30d1ff;
-  position: static;
-  width: 100%;
-}
+
 .footer__link-others {
   color: #787ca9;
 }

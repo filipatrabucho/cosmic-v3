@@ -98,7 +98,6 @@
 }
 
 .mobile-link {
-  width: 100%;
   text-align: center;
   text-decoration: none;
   font-size: 2rem;
@@ -113,26 +112,13 @@
 
 .active {
   border-bottom: solid #30d1ff;
-  width: 10%;
 }
-
-@media screen and (max-width: 1084px) {
+@media screen and (min-width: 200) and (max-width: 1084px) {
   .active {
     border-bottom: solid #30d1ff;
-    width: 20%;
-  }
-}
-@media screen and (max-width: 545px) {
-  .active {
-    border-bottom: solid #30d1ff;
-    width: 25%;
   }
 }
 @media screen and (min-width: 200) and (max-width: 435) {
-  .active {
-    border-bottom: solid #30d1ff;
-    width: 70%;
-  }
   .mobile-link {
     font-size: 0.75rem;
   }

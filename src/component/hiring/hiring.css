@@ -84,7 +84,14 @@ h2 {
   display: none;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 860px) {
+  .hiring__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 1.875rem;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 640px) {
   .hiring-btn {
     visibility: hidden;
     display: none;
@@ -101,8 +108,8 @@ h2 {
     width: 75%;
   }
   .dropdown select {
-    font-family: "Arial";
     display: inline-block;
+    font-size: 1.25rem;
     width: 100%;
     cursor: pointer;
     padding: 10px 9px;
@@ -112,8 +119,6 @@ h2 {
     background: #0c112a;
     color: #e0eaf8;
     appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
   }
   .dropdown select::-ms-expand {
     display: none;
@@ -148,18 +153,6 @@ h2 {
     border-top-color: #e0eaf8;
   }
 
-  .hiring__verticalbanner {
-    visibility: visible;
-    display: block;
-    background-image: url("../../assets/hiringmobile_banner.png");
-    width: 100%;
-    height: 40rem;
-  }
-  .hiring__banner {
-    visibility: hidden;
-    display: none;
-  }
-
   h2 {
     font-size: 2rem;
   }
@@ -173,10 +166,46 @@ h2 {
   .hiring__grid {
     display: grid;
     grid-template-columns: 1fr;
-    margin-bottom: 1.875rem;
+    justify-content: center;
   }
   .hiring__position,
   .hiring__localition {
     font-size: 20px;
   }
+  .hiring__localition {
+    padding: 0;
+  }
+  .hiring__icon {
+    height: 90%;
+    padding-right: 0.625rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .hiring__verticalbanner {
+    visibility: visible;
+    display: block;
+    background-image: url("../../assets/hiringmobile_banner.png");
+    width: 100%;
+    height: 40rem;
+  }
+  .hiring__banner {
+    visibility: hidden;
+    display: none;
+  }
+}
+
+.hiring__details {
+  background-color: rgba(22, 33, 91, 1);
+  padding: 1.25rem;
+  border-radius: 0.9375rem;
+  width: 973px;
+  margin-inline: auto;
+}
+
+#apply_button {
+  width: auto;
+  margin-inline: auto;
+}
+.hiring-card-link {
+  text-decoration: none;
 }
