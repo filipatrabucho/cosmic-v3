@@ -1,0 +1,32 @@
+.disclaimer__banner {
+  background-image: url("../../assets/disclaimer_banner.png");
+  background-position: center;
+  height: 40rem;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.disclaimer {
+  max-width: 75rem;
+  margin: auto;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 2.1875rem;
+}
+p {
+  font-size: 1.375rem;
+}
+@media screen and (max-width: 400px) {
+  .disclaimer__banner {
+    background-image: url("../../assets/disclaimer_verticalbanner.png");
+    background-position: center;
+    height: 40rem;
+    background-repeat: no-repeat;
+  }
+
+  p {
+    padding: 1.25rem;
+    margin-top: 0;
+  }
+}

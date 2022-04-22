@@ -1,11 +1,25 @@
 import React from "react";
 import "../component/style/contact.css";
 import contactUsImg from '../assets/contact us Background 1.svg';
+import Banner from "../component/banner/banner";
+import Routemap from "../component/routemap/routemap";
 
 function ContactusPage() {
+  const routes = [
+    {
+      name: "Home",
+      href: "/",
+    },
+    {
+      name: "Contact Us",
+      href: "/contactus",
+    },
+  ];
   return (
     <>
     <img src={contactUsImg} alt="banner__img" className="contact__banner"/>
+      <Banner />
+      <Routemap routes={routes} />
       <div className="contact">
         <h2 className="contact__title">Contact Us</h2>
         <div className="graphics__line"></div>

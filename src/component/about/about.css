@@ -1,7 +1,8 @@
 .about {
+  text-align: center;
   max-width: 1200px;
   margin: auto;
-  margin-bottom: 3.75rem;
+  margin-bottom: 1.875rem;
 }
 .about__mobilebanner {
   visibility: hidden;
@@ -23,8 +24,6 @@
 .about__text {
   color: #e0eaf8;
   text-align: center;
-  max-width: 1200px;
-  margin: auto;
 }
 .about__subtitle {
   font-size: 1.375rem;
@@ -39,40 +38,52 @@
   color: #30d1ff;
   margin: 0.625rem;
 }
-
 .about__container {
   color: #e0eaf8;
+}
+
+.about__grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
+  width: 867px;
+  height: 1033px;
+  margin: 0 15%;
 }
 .about__flex {
-  text-align: center;
-  border: 1.25rem solid rgba(11, 18, 52, 0.2);
-  border-radius: 0.625rem;
-  box-shadow: 0 0 8px 3px #000;
+  box-shadow: 0px 3px 27px rgba(0, 0, 0, 0.39);
+  border-radius: 10px;
+  width: 192px;
+}
+.about__logo {
+  width: 112px;
+  height: 112px;
 }
 .about__link {
   padding: 0.625rem;
 }
 .about__departement {
   border-bottom: 0.125rem solid #30d1ff;
-  width: 5rem;
 }
-
+.about__icons {
+}
 .about__banner {
   width: 100%;
 }
+@media screen and (max-width: 750px) {
+  .about__text {
+    padding: 1.875rem;
+  }
+}
 
-@media screen and (max-width: 1250px) {
-  .about__container {
+@media screen and (max-width: 750px) {
+  .about__grid {
     color: #e0eaf8;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2.5rem;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin: 0 15%;
   }
   .about__title {
     font-size: 2rem;
@@ -80,18 +91,10 @@
   }
 }
 
-@media screen and (max-width: 800px) {
-  .about__container {
-    background-position: 20% 80%;
-    color: #e0eaf8;
-    display: grid;
+@media screen and (max-width: 630px) {
+  .about__grid {
     grid-template-columns: 1fr 1fr;
-    gap: 2.5rem;
-    margin-left: 30px;
-    margin-right: 30px;
   }
-}
-@media screen and (max-width: 500px) {
   .about__text {
     font-size: 1rem;
     margin-top: 0.9375rem;
@@ -115,6 +118,9 @@
   }
 }
 @media screen and (max-width: 410px) {
+  .about__grid {
+    grid-template-columns: 1fr;
+  }
   .about__banner {
     visibility: hidden;
     display: none;

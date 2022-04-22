@@ -2,20 +2,16 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./routemap.css";
 
-function Routemap(props) {
-  const routeLength = Object.keys(props.routes).length;
-  console.log(routeLength);
-
+function Routemap({ routes }) {
+  const routeLength = Object.keys(routes).length;
   return (
     <div className="routemap">
-      {props.routes.map((info, index) => {
+      {routes.map((info, index) => {
         return (
-          <NavLink className="text" to={info.href}>
+          <NavLink className="routemap__text" to={info.href}>
             <p key={info.name}>
               {info.name}
-              {routeLength === index + 1 ? null : (
-                <span> &nbsp;&gt;&nbsp;</span>
-              )}
+              {routeLength === index + 1 ? null : <span>&nbsp;&gt;&nbsp;</span>}
             </p>
           </NavLink>
         );

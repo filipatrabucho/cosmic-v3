@@ -4,6 +4,7 @@ import everywhere from "../../assets/Logo-_Everywhere_ 1.png";
 import { AiOutlineClose } from "react-icons/ai";
 import cosmic from "../../assets/Cosmis Exodus® _ 2022.png";
 import linktree from "../../assets/linktree-1 1.png";
+import { NavLink } from "react-router-dom";
 import "./footer.css";
 
 function Footer() {
@@ -11,57 +12,53 @@ function Footer() {
     <div className="footer">
       <div className="footer__line"></div>
       <div className="footer__brands">
-        <img src={logo} alt="logo" className="footer__logo" />
+        <a href="/">
+          <img src={logo} alt="logo" className="footer__logo" />
+        </a>
         <div className="footer__icon">
-          <AiOutlineClose
-            className="footer__iconx"
-            onClick={() => console.log("click")}
-          />
+          <AiOutlineClose className="footer__iconx" />
         </div>
         <img src={everywhere} alt="brand" className="footer__brand" />
       </div>
+      <div className="footer__menu">
+        <NavLink to="/dapp" className="footer__link">
+          Dapp
+        </NavLink>
+        <NavLink to="/blog" className="footer__link">
+          Cosmic Blog
+        </NavLink>
+        <NavLink
+          to="/cosmicpack"
+          className="footer__link"
+          activeClassName="active"
+        >
+          Cosmic Stats
+        </NavLink>
+        <NavLink to="/hiring" className="footer__link">
+          Recruting
+        </NavLink>
+        <NavLink to="/contact" className="footer__link">
+          Contact Us
+        </NavLink>
+        <NavLink to="/faq" className="footer__link">
+          Faq
+        </NavLink>
 
-      <ul className="footer__list">
-        <li className="footer__item">
-          <a className="footer__link" href="/">
-            Contact Us
-          </a>
-        </li>
-        <li className="footer__item">
-          <a className="footer__link" href="/">
-            Faq
-          </a>
-        </li>
-        <li className="footer__item">
-          <a className="footer__link-active" href="/cosmicgraphicspack">
-            Cosmic Graphics Pack
-          </a>
-        </li>
-        <li className="footer__item">
-          <a className="footer__link" href="/">
-            Recruting
-          </a>
-        </li>
-        <li className="footer__item">
-          <a className="footer__link-others" href="/">
-            Audit
-          </a>
-        </li>
-        <li className="footer__item">
-          <a className="footer__link-others" href="/">
-            How To Start
-          </a>
-        </li>
-        <li className="footer__item">
-          <a className="footer__link-others" href="/">
-            Dao
-          </a>
-        </li>
-      </ul>
+        <NavLink to="/audit" className="footer__link-others">
+          Audit
+        </NavLink>
+      </div>
 
       <div className="footer__cosmicexodus">
         <img src={cosmic} alt="logo" className="footer__cosmicsesodus2022" />
-        <img src={linktree} alt="logo" className="footer__linktree" />
+        <a
+          href="https://linktr.ee/cosmic_exodus"
+          rel="noopener noreferrer"
+          target="_blank"
+          className="footer__linktree"
+        >
+          <img src={linktree} alt="logo" className="footer__linktree" />
+        </a>
       </div>
     </div>
   );

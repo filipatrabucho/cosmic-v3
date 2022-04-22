@@ -1,29 +1,125 @@
-.navbar {
-  background-color: #0c112a;
-  max-width: 1200px;
-  margin: auto;
-}
-.navbar__container {
-  display: flex;
-  align-content: center;
-  justify-content: space-between;
-}
-
-.navbar__menu {
-  padding-top: 35px;
-}
-
 .navbar__logo {
   height: 6em;
   width: 6em;
 }
-
-.navbar__icon {
-  color: #fff;
+/* Pc Version */
+.navbar {
+  max-width: 1200px;
+  margin: auto;
+  background-color: #0c112a;
+  z-index: 3;
+  padding: 0 1.5rem;
 }
-@media screen and (max-width: 1240px) {
-  .navbar {
-    margin-left: 1.25rem;
-    margin-right: 1.25rem;
+.navbar__container {
+  height: 73px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar__left > a > span {
+  display: none;
+}
+
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: none;
+  padding: 0;
+  right: 1.5rem;
+  top: 20px;
+}
+.mobile-menu:focus {
+  outline: none;
+}
+
+.bar-one,
+.bar-two,
+.bar-three {
+  width: 2rem;
+  height: 0.25rem;
+  background: #ffffff;
+  border-radius: 10px;
+  transition: all 0.3s linear;
+  position: relative;
+  transform-origin: 1px;
+}
+
+.bar-one {
+  transform: rotate(0);
+}
+
+.bar-two {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.bar-three {
+  transform: rotate(0);
+}
+
+.open .bar-one {
+  transform: rotate(45deg);
+}
+
+.open .bar-two {
+  opacity: 0;
+  transform: translateX(20px);
+}
+
+.open .bar-three {
+  transform: rotate(-45deg);
+}
+
+/*Mobile Version*/
+.mobile-nav-wrapper {
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #080b1d;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  opacity: 0;
+  visibility: hidden;
+  height: 0%;
+  transition: opacity 0.75s, visibility 0.75s, height 0.75s;
+}
+
+.mobile-nav-wrapper.open {
+  opacity: 1;
+  visibility: visible;
+  height: 100vh;
+}
+
+.mobile-link {
+  text-align: center;
+  text-decoration: none;
+  font-size: 2rem;
+  color: #e0eaf8;
+  margin: 0 0.5rem;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  line-height: 21px;
+  padding: 1.875rem;
+  border: 1px solid transparent;
+}
+
+.active {
+  border-bottom: solid #30d1ff;
+}
+@media screen and (min-width: 200) and (max-width: 1084px) {
+  .active {
+    border-bottom: solid #30d1ff;
+  }
+}
+@media screen and (min-width: 200) and (max-width: 435) {
+  .mobile-link {
+    font-size: 0.75rem;
   }
 }

@@ -1,9 +1,9 @@
 import React from "react";
 import About from "../component/about/about";
-import icon from "../assets/about_icon.png";
 import Routemap from "../component/routemap/routemap";
 import aboutimg from "../assets/aboutus_banner.png";
 import mobileBanner from "../assets/vertical_banner.png";
+
 import "../../src/component/about/about.css";
 
 function AboutPage() {
@@ -44,118 +44,10 @@ function AboutPage() {
           happy and excited to wake up everyday!
         </p>
         <div className="about__container">
-          <About
-            img={icon}
-            name={"STEVEN"}
-            dep={"Designer"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"STEVEN"}
-            dep={"Designer"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"STEVEN"}
-            dep={"Designer"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"STEVEN"}
-            dep={"Designer"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"STEVEN"}
-            dep={"Designer"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"STEVEN"}
-            dep={"Designer"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"STEVEN"}
-            dep={"Designer"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"STEVEN"}
-            dep={"Designer"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"STEVEN"}
-            dep={"Designer"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"STEVEN"}
-            dep={"Designer"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"STEVEN"}
-            dep={"Designer"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
-          <About
-            img={icon}
-            name={"STEVEN"}
-            dep={"Designer"}
-            text={"Lorem ipsum dolor sit amet,consectetur adipiscing elit."}
-            linkedin={"linkedin.com"}
-            behance={"linkedin.com"}
-            www={"linkedin.com"}
-          />
+          <About />
         </div>
       </div>
     </>
   );
 }
-
 export default AboutPage;
