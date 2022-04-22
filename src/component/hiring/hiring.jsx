@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { jobs, jobPositions } from "../../component/utils/jobs";
 import locationIcon from "../../assets/location_icon.png";
 import "./hiring.css";
+import { NavLink } from "react-router-dom";
 
 const Hiring = () => {
   const [currentPosition, setCurrentPosition] = useState("all_positions");
@@ -40,26 +41,30 @@ const Hiring = () => {
           })}
           {/*---------Dropdown for responsive-----------*/}
           <div className="dropdown">
-            <select className="dropdown__select" id="dropdown__select">
+            <select
+              className="dropdown__select"
+              id="dropdown__select"
+              onChange={(event) => {
+                if (event.target.value === "all_positions") {
+                  setCurrentPosition(event.target.value);
+                  setFilteredJobs(jobs);
+                } else {
+                  filterJobs(event.target.value);
+                }
+              }}
+            >
               {jobPositions.map((jobPosition) => {
                 const { id, label, name } = jobPosition;
+
                 return (
                   <option
-                    value=""
+                    value={label}
                     key={id}
                     className={`hiring-dropdown ${
                       currentPosition === label
                         ? "hiring__dropdown--active"
                         : ""
                     }`}
-                    onClick={() => {
-                      if (label === "all_positions") {
-                        setCurrentPosition(label);
-                        setFilteredJobs(jobs);
-                      } else {
-                        filterJobs(label);
-                      }
-                    }}
                   >
                     {name}
                   </option>
@@ -82,23 +87,22 @@ const Hiring = () => {
                 );
               } else {
                 return (
-                  <div
-                    key={id}
-                    className="hiring__card"
-                    onClick={() => {
-                      console.log(position);
-                    }}
+                  <NavLink
+                    className="hiring-card-link"
+                    to={"/hiring/" + position.replaceAll(" ", "_")}
                   >
-                    <h3 className="hiring__position">{position}</h3>
-                    <div className="hiring__container">
-                      <img
-                        src={locationIcon}
-                        alt="Location Icon"
-                        className="hiring__icon"
-                      />
-                      <p className="hiring__localition">{location}</p>
+                    <div key={id} className="hiring__card">
+                      <h3 className="hiring__position">{position}</h3>
+                      <div className="hiring__container">
+                        <img
+                          src={locationIcon}
+                          alt="Location Icon"
+                          className="hiring__icon"
+                        />
+                        <p className="hiring__localition">{location}</p>
+                      </div>
                     </div>
-                  </div>
+                  </NavLink>
                 );
               }
             })}

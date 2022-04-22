@@ -13,7 +13,7 @@ import ContactusPage from "./pages/ContactusPage";
 import FAQPage from "./pages/FAQPage";
 import HomePage from "./pages/HomePage";
 import DisclaimerPage from "./pages/DisclaimerPage";
-import PopupPage from "./pages/PopupPage";
+import HiringDetailsPage from "./pages/HiringDetailsPage";
 import "./App.css";
 
 function App() {
@@ -21,17 +21,17 @@ function App() {
     <div className="main">
       <Router>
         <NavBar />
-        <PopupPage />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/cosmicpack" element={<GraphicsPage />} />
           <Route path="/content" element={<ContentPage />} />
           <Route path="/profiles" element={<ProfilePage />} />
           <Route path="/hiring" element={<HiringPage />} />
+          <Route path="/hiring/:position" element={<HiringDetailsPage />} />
           <Route path="/privacypage" element={<PrivacyPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactusPage />} />
-          <Route path="faq" element={<FAQPage />} />
+          <Route path="/faq" element={<FAQPage />} />
           <Route path="/disclaimer" element={<DisclaimerPage />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>

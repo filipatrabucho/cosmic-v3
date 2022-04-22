@@ -12,9 +12,9 @@ function Footer() {
     <div className="footer">
       <div className="footer__line"></div>
       <div className="footer__brands">
-        <NavLink to="/" className="footer__cosmiclink">
+        <a href="/">
           <img src={logo} alt="logo" className="footer__logo" />
-        </NavLink>
+        </a>
         <div className="footer__icon">
           <AiOutlineClose className="footer__iconx" />
         </div>
@@ -27,7 +27,11 @@ function Footer() {
         <NavLink to="/blog" className="footer__link">
           Cosmic Blog
         </NavLink>
-        <NavLink to="/cosmicpack" className="footer__link">
+        <NavLink
+          to="/cosmicpack"
+          className="footer__link"
+          activeClassName="active"
+        >
           Cosmic Stats
         </NavLink>
         <NavLink to="/hiring" className="footer__link">

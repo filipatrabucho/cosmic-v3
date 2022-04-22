@@ -1,3 +1,4 @@
+/*
 .popup {
   height: 100vh;
   position: fixed;
@@ -31,7 +32,7 @@
 
 @font-face {
   font-family: "Space Quest Italic";
-  src: url("../../fonts/Space\ Quest.otf");
+  src: url("../../fonts/Space/Quest.otf");
 }
 
 .popup__title {
@@ -102,3 +103,4 @@
     width: 92%;
   }
 }
+*/

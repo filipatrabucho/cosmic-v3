@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import classNames from "classnames";
 import logo from "../../assets/LogoCosmic-Exodus 1.svg";
-import NavLinks from "../utils/navlinks";
+import NavMenu from "../utils/navlinks";
 import "./navbar.css";
 
 const App = () => {
@@ -10,6 +10,10 @@ const App = () => {
   const active = classNames("mobile-menu", {
     open: openMenu,
   });
+
+  const handleOpen = () => {
+    setopenMenu(!openMenu);
+  };
 
   return (
     <>
@@ -24,9 +28,7 @@ const App = () => {
             <button
               aria-label="Toggle Mobile Menu Button"
               className={active}
-              onClick={() => {
-                setopenMenu((openMenu) => !openMenu);
-              }}
+              onClick={handleOpen}
             >
               <div className="bar-one" />
               <div className="bar-two" />
@@ -35,7 +37,7 @@ const App = () => {
           </span>
         </div>
       </header>
-      <NavLinks open={openMenu} />
+      <NavMenu open={openMenu} toggleOpen={handleOpen} />
     </>
   );
 };

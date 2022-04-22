@@ -4,8 +4,7 @@ export const team = [
     name: "TOM",
     photo: "",
     department: "Cosmic Pioneer",
-    info:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    info: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     linkedin: "",
     behance: "",
     www: "",
@@ -15,8 +14,7 @@ export const team = [
     name: "OSCAR",
     photo: "",
     department: "Cosmic Dev",
-    info:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    info: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     linkedin: "",
     behance: "",
     www: "",
@@ -26,8 +24,7 @@ export const team = [
     name: "TRABS",
     photo: "",
     department: "Cosmic Dev",
-    info:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    info: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     linkedin: "",
     behance: "",
     www: "",
@@ -37,8 +34,7 @@ export const team = [
     name: "KROLING",
     photo: "",
     department: "Cosmic Dev",
-    info:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    info: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     linkedin: "",
     behance: "",
     www: "",
@@ -48,8 +44,7 @@ export const team = [
     name: "FELIPE",
     photo: "",
     department: "Cosmic Game Dev",
-    info:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    info: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     linkedin: "",
     behance: "",
     www: "",
@@ -59,12 +54,12 @@ export const team = [
     name: "B.HOOD",
     photo: "",
     department: "Cosmic Game Dev",
-    info:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    info: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     linkedin: "",
     behance: "",
     www: "",
   },
+  /*
   {
     id: 7,
     name: "SÉRGIO",
@@ -218,5 +213,5 @@ export const team = [
     linkedin: "",
     behance: "",
     www: "",
-  },
+  },*/
 ];
