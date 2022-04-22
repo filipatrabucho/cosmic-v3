@@ -2,31 +2,9 @@ import React from "react";
 import contentImg from "../../assets/256 256 1.svg";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import { useState } from "react";
+
 import "./content.css";
 import "@splidejs/splide/dist/css/splide.min.css";
-
-const data = [
-  {
-    id: "1",
-    img: `${contentImg}`,
-  },
-  {
-    id: "2",
-    img: `${contentImg}`,
-  },
-  {
-    id: "1",
-    img: `${contentImg}`,
-  },
-  {
-    id: "1",
-    img: `${contentImg}`,
-  },
-  {
-    id: "1",
-    img: `${contentImg}`,
-  },
-];
 
 function Content({ title }) {
   const [isSelected, setIsSelected] = useState(false);
@@ -49,8 +27,8 @@ function Content({ title }) {
               breakpoints: {
                 950: {
                   perPage: 2,
-                  /* perMove: 2,
-                  gap: 0, */
+                  perMove: 2,
+                  gap: 0,
                 },
               },
             }}
@@ -78,7 +56,7 @@ function Content({ title }) {
               <img src={contentImg} alt="house-img" className="content__img" />
             </SplideSlide>
 
-            <SplideSlide>
+            <SplideSlide className="item5">
               <img src={contentImg} alt="house-img" className="content__img" />
             </SplideSlide>
           </Splide>

@@ -6,6 +6,11 @@
 
 .faq__img {
   width: 100%;
+  display: block;
+}
+
+.faq__mobile {
+  display: none;
 }
 
 .accordion__line {
@@ -46,4 +51,15 @@
 
 .accordion__text {
   margin-top: 0;
+}
+
+@media screen and (min-width: 280px) and (max-width: 550px) {
+  .faq__mobile {
+    display: block;
+    width: 100%;
+  }
+
+  .faq__img {
+    display: none;
+  }
 }

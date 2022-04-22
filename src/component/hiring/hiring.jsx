@@ -1,8 +1,11 @@
-import React from "react";
-import "./hiring.css";
+import React from 'react'
 
-function Hiring() {
-  return <></>;
+function hiring() {
+    return (
+        <div>
+            
+        </div>
+    )
 }
 
-export default Hiring;
+export default hiring

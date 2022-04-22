@@ -1,7 +1,5 @@
 import React from "react";
 import profileImg from "../../assets/COSMIC GRAPHICS PACK - cards.svg";
-import { FiSquare } from "react-icons/fi";
-import { ImCross } from "react-icons/im";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import { useState } from "react";
 
@@ -9,10 +7,10 @@ import "./profile.css";
 import "@splidejs/splide/dist/css/splide.min.css";
 
 function Profile({ title }) {
-  const [isActive, setActive] = useState(false);
+  const [isSelected, setIsSelected] = useState(false);
 
-  const toggleClass = () => {
-    setActive(!isActive);
+  const toggleSelected = () => {
+    setIsSelected(!isSelected);
   };
 
   return (
@@ -26,46 +24,56 @@ function Profile({ title }) {
               perPage: 4,
               arrows: true,
               pagination: false,
+              breakpoints: {
+                950: {
+                  perPage: 2,
+                  perMove: 2,
+                  gap: 0,
+                },
+              },
             }}
           >
             <SplideSlide className="item1">
-              <img src={profileImg} alt="profile-img" className="profile__img" />
-              <ImCross
-                className={`profile__cross ${isActive ? "hidden" : null}`}
+              <img
+                src={profileImg}
+                alt="profile-img"
+                className={`profile__img ${
+                  isSelected ? "selected" : "profile__img"
+                }`}
+                onClick={toggleSelected}
               />
-              <FiSquare className="profile__square" onClick={toggleClass} />
             </SplideSlide>
 
             <SplideSlide className="item2">
-              <img src={profileImg} alt="profile-img" className="profile__img" />
-              <ImCross
-                className={`profile_cross ${isActive ? "hidden" : null}`}
+              <img
+                src={profileImg}
+                alt="profile-img"
+                className="profile__img"
               />
-              <FiSquare className="profile__square" onClick={toggleClass} />
             </SplideSlide>
 
             <SplideSlide className="item3">
-              <img src={profileImg} alt="profile-img" className="profile__img" />
-              <ImCross
-                className={`profile__cross ${isActive ? "hidden" : null}`}
+              <img
+                src={profileImg}
+                alt="profile-img"
+                className="profile__img"
               />
-              <FiSquare className="profile__square" onClick={toggleClass} />
             </SplideSlide>
 
             <SplideSlide className="item4">
-              <img src={profileImg} alt="profile-img" className="profile__img" />
-              <ImCross
-                className={`profile__cross ${isActive ? "hidden" : null}`}
+              <img
+                src={profileImg}
+                alt="profile-img"
+                className="profile__img"
               />
-              <FiSquare className="profile__square" onClick={toggleClass} />
             </SplideSlide>
 
             <SplideSlide>
-              <img src={profileImg} alt="profile-img" className="profile__img" />
-              <ImCross
-                className={`profile__cross ${isActive ? "hidden" : null}`}
+              <img
+                src={profileImg}
+                alt="profile-img"
+                className="profile__img"
               />
-              <FiSquare className="profile__square" onClick={toggleClass} />
             </SplideSlide>
           </Splide>
         </div>

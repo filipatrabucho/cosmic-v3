@@ -1,11 +1,11 @@
 import React from "react";
 import "../component/style/contact.css";
-import Banner from "../component/banner/banner";
+import contactUsImg from '../assets/contact us Background 1.svg';
 
 function ContactusPage() {
   return (
     <>
-      <Banner />
+    <img src={contactUsImg} alt="banner__img" className="contact__banner"/>
       <div className="contact">
         <h2 className="contact__title">Contact Us</h2>
         <div className="graphics__line"></div>
@@ -21,7 +21,7 @@ function ContactusPage() {
         </p>
         <div className="contact__line-responsive"></div>
         <div className="contact__line"></div>
-        <form action="" method="post">
+        <form className="contact__form" action="" method="post">
           <input className="contact__input" type="text" placeholder="Name" />
           <input className="contact__input" type="email" placeholder="Email" />
           <textarea

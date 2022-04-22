@@ -1,10 +1,15 @@
 .contact {
   margin: 0 6%;
+  text-align: center;
 }
 .contact__title {
-  text-align: center;
   color: #e0eaf8;
-  font-size: 4.375rem;
+  font-size: 3.7rem;
+}
+
+.contact__banner {
+  object-fit: cover;
+  width: 100%;
 }
 
 .contact__description,
@@ -21,16 +26,14 @@
 .contact__description {
   font-size: 1.375rem;
   color: #e0eaf8;
-  text-align: center;
 }
 
 a {
   color: #e0eaf8;
 }
 
-form {
-  text-align: center;
-  margin: auto;
+.contact__form {
+  margin: auto 18%;
 }
 
 .contact__line-responsive {
@@ -95,7 +98,7 @@ form {
   font-weight: bold;
 }
 
-@media screen and (min-width: 250px) and (max-width: 500px) {
+@media screen and (min-width: 250px) and (max-width: 600px) {
   .contact__title {
     font-size: 2.375rem;
   }
@@ -103,12 +106,16 @@ form {
     display: block;
     line-height: 1.3;
     text-align: left;
+    font-size: 1.1rem;
   }
   .contact__message {
     resize: none;
   }
   .contact__description {
     display: none;
+  }
+  .contact__form {
+    margin: auto;
   }
   .contact__info {
     display: none;
@@ -118,4 +125,3 @@ form {
     margin-bottom: 1.5em;
   }
 }
-
