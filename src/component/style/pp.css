@@ -51,6 +51,9 @@
     text-align: left;
     color: #e0eaf8;
   }
+  .pp__line {
+    margin-bottom: 0.9375rem;
+  }
 }
 
 @media screen and (max-width: 400px) {

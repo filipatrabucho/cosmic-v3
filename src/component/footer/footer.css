@@ -48,6 +48,7 @@
   font-size: 1rem;
   line-height: 1.1875rem;
   padding: 1.25rem;
+  padding-bottom: 0;
 }
 .active {
   text-decoration: none;
@@ -71,9 +72,11 @@
   .footer__menu {
     display: flex;
     flex-direction: column;
-    text-align: center;
   }
   .footer__iconx {
     padding: 0;
+  }
+  .active {
+    width: 80%;
   }
 }

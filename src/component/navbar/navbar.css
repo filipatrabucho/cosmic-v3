@@ -89,7 +89,6 @@
   visibility: hidden;
   height: 0%;
   transition: opacity 0.75s, visibility 0.75s, height 0.75s;
-  overflow: hidden;
 }
 
 .mobile-nav-wrapper.open {
@@ -132,6 +131,7 @@
 @media screen and (min-width: 200) and (max-width: 435) {
   .active {
     border-bottom: solid #30d1ff;
+    width: 70%;
   }
   .mobile-link {
     font-size: 0.75rem;
