@@ -32,7 +32,7 @@ const NavMenu = ({ open, toggleOpen }) => {
     },
     {
       name: "Privacy Policy",
-      href: "/privacypolicy",
+      href: "/privacypage",
     },
     {
       name: "Disclaimer",

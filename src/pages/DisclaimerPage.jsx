@@ -39,7 +39,7 @@ function DisclaimerPage() {
           (i.e. swap resources, items) or as means necessary to progress the
           game content (i.e. open loot box, upgrade NFTs).
         </p>
-        <p>
+        <p className="disclaimer__lasttext">
           The information publicly displayed by any team members and associates
           can be subject to change or deleted without any prior notice or
           warning.

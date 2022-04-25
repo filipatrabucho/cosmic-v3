@@ -47,3 +47,14 @@ input {
   border-style: none;
   background-color: #e0eaf8;
 }
+::placeholder {
+  color: black;
+}
+
+.contact__message::placeholder {
+  font-size: 14px;
+}
+textarea {
+  background-color: #e0eaf8;
+  border-radius: 0.375rem;
+}

@@ -112,6 +112,7 @@
 
 .active {
   border-bottom: solid #30d1ff;
+  width: fit-content;
 }
 @media screen and (min-width: 200) and (max-width: 1084px) {
   .active {

@@ -28,7 +28,7 @@ function Footer() {
           Cosmic Blog
         </NavLink>
         <NavLink
-          to="/cosmicpack"
+          to="/cosmicstats"
           className="footer__link"
           activeClassName="active"
         >
