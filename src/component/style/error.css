@@ -16,7 +16,7 @@
   }
 }
 /***** HOme page ****/
-.home__banner {
+.homepage__banner {
   background-image: url("../../assets/home_banner.png");
   background-position: center;
   height: 40rem;
@@ -25,7 +25,7 @@
 }
 
 @media screen and (max-width: 400px) {
-  .home__banner {
+  .homepage__banner {
     background-image: url("../../assets/home_mobilebanner.png");
     background-position: center;
     height: 40rem;

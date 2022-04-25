@@ -24,9 +24,12 @@ p {
     height: 40rem;
     background-repeat: no-repeat;
   }
-
   p {
+    margin: 0;
+    font-size: 1rem;
     padding: 1.25rem;
-    margin-top: 0;
+  }
+  .disclaimer__lasttext {
+    margin-bottom: 1.5625rem;
   }
 }

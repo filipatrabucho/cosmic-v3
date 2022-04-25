@@ -39,6 +39,7 @@
 .footer__menu {
   margin-bottom: 0.9375rem;
 }
+
 .footer__link,
 .footer__link-others {
   text-decoration: none;
@@ -65,11 +66,14 @@
   .footer__menu {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
   .footer__iconx {
     padding: 0;
   }
   .active {
-    width: 80%;
+    width: fit-content;
   }
 }

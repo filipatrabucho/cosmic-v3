@@ -34,7 +34,7 @@ function HiringDetailsPage() {
     jobs.forEach((info) => {
       if (info.position === fullName) {
         jobDetail.detail.push(info.detail);
-        jobDetail.mentions.push(info.mentions);
+        jobDetail.mentions.push(info.mentions); 
       }
     });
   };

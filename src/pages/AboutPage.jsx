@@ -2,7 +2,7 @@ import React from "react";
 import About from "../component/about/about";
 import Routemap from "../component/routemap/routemap";
 import aboutimg from "../assets/aboutus_banner.png";
-import mobileBanner from "../assets/vertical_banner.png";
+import mobileBanner from "../assets/aboutus_verticalbanner.png";
 
 import "../../src/component/about/about.css";
 

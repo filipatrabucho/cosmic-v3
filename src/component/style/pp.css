@@ -44,12 +44,15 @@
     font-size: 2rem;
   }
   .pp__subtitle {
-    font-size: 1.375rem;
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 0;
   }
   .pp__text {
-    font-size: 1.375rem;
+    font-size: 1rem;
     text-align: left;
     color: #e0eaf8;
+    margin: 0;
   }
   .pp__line {
     margin-bottom: 0.9375rem;
@@ -68,14 +71,5 @@
     background-position: center;
     width: 100%;
     height: 40rem;
-  }
-
-  .pp__title {
-    padding-bottom: 0.625rem;
-  }
-  .pp__text {
-    font-size: 1.375rem;
-    text-align: left;
-    color: #e0eaf8;
   }
 }
